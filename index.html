@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>Ice Cream Galore</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/odin-0.6.0.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+
+<body class="show-gridlines">
+
+  <!-- start making your grid here -->
+<div class="container-lg">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="text-center"><img src="img/new logo.png"></h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <p class="text-center">
+        <label for="some_text">Search:</label>
+        <input id="some_text" type="text" name="some_text">
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <p class="text-center">
+        <button type="button"><a href="Menu.html">Menu</a></button>
+      </p>
+    </div>
+  </div>
+
+
+
+<div class="owl-carousel">
+  <div class="item"><img src="img/ice_cream3.jpg"></div>
+  <div class="item"><img src="img/sundae3.jpg"></div>
+  <div class="item"><img src="img/mini cakes.jpg"></div>
+  <div class="item"><img src="img/chocolate3.jpg"></div>
+  <div class="item"><img src="img/iceee3.jpg"></div>
+  <div class="item"><img src="img/cakes.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+      <h2 class="text-center"><a href="#">Rewards Galore</a></h2>
+      <p class="text-center"><img src="img/presentsfinal.jpg"></p>
+    </div>
+
+    <div class="col-sm-4">
+      <h2 class="text-center"><a href="#">Start Making Your Cake</a></h2>
+      <p class="text-center"><img src="img/startmakingyourcake.jpg"></p>
+    </div>
+
+    <div class="col-sm-4">
+      <h2 class="text-center"><a href="#">Catering</a><h2>
+      <p class="text-center"><img src="img/catering1.jpg"></p>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-9">
+<img src="img/map.png"></div>
+  <div class="col-sm-3">
+    <h2>Address</h2>
+    <p>1551 Laurens Rd Greenville, SC 29607 between AutoZone and M & M Income Tax Service.</p>
+    <h2>Hours</h2>
+<table>
+        <tbody>
+          <tr>
+            <td aria-label="Header 1">Mon-Sat</td>
+            <td aria-label="Header 2">7:00am-9:00pm</td>
+          </tr>
+          <td aria-label="Header 2">Sunday</td>
+            <td aria-label="Header 3">12:00pm-10:00pm</td>
+          </tr>
+      </tbody>
+</table>
+      <tfoot>
+     <h2>Phone</h2>
+     <p> (864) 847-8499</p>
+
+     </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+  <p class="text-center"><h2>Helpful Links</h2></p>
+  <p><a href="https://www.youtube.com/watch?v=SxTXwCjvUq4"><h2>How to make Ice Cream</h2></a></p>
+<p><a href="https://bonsecours.com/greenville/find-a-facility/st-francis-eastside">
+  <h2>In Case of Allergic Reaction</h2></a></p></div>
+
+  <div class="col-sm-4"><p class="text-center"><h2>Contact Us</h2></p>
+  <p><a href="#">Email</a></div>
+
+  <div class="col-sm-4"><p class="text-center"><a href="#">Follow Us!</p>
+  <img class="circle" src="img/twitter.png" alt="">
+  <img class="circle" src="img/facebook.png" alt="">
+  <img class="circle" src="img/instagram.png" alt="">
+  <img class="circle" src="img/snapchat.png" alt="">
+    </div>
+  </div>
+  <!-- include any javascript below this line -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+
+      <script>
+      $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+          autoplay : true,
+          autoplayHoverPause : true,
+          autoplayTimeout : 2000,
+          items : 1,
+          loop : true
+        })
+       })
+      </script>
+</body>
+</html>
